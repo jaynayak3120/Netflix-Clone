@@ -20,6 +20,7 @@ function Nav() {
         <div className={`nav ${show && "nav__black"}`}>
             <img src='https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg'
              className='nav__logo' alt='Netflix Logo'/>
+             <h3 className={`jay ${show && "jay_visible"}`}>Jay Nayak's Creation!</h3>
             <img src='https://www.flaticon.com/svg/static/icons/svg/2919/2919600.svg'
              className='nav__avatar' alt='Netflix Avatar'/>
         </div>

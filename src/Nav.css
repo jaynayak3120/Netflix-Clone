@@ -29,3 +29,11 @@
     width: 35px;
     object-fit: contain;
 }
+
+.jay {
+    margin-left: 560px;
+}
+
+.jay_visible {
+    color: rgb(173, 32, 32);
+}

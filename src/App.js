@@ -11,13 +11,13 @@ function App() {
       <Nav />
       <Banner />
       <Row title="Netflix Originals" subUrl={Request.fetchNetflixOriginals} isLargeRow/>
-      <Row title="Trending" subUrl={Request.fetchTreding}/>
-      <Row title="Top Rated" subUrl={Request.fetchTopRated}/>
-      <Row title="Action Movies" subUrl={Request.fetchActionMovies}/>
-      <Row title="Comedy Movies" subUrl={Request.fetchComedyMovies}/>
-      <Row title="Horror Movies" subUrl={Request.fetchHorrorMovies}/>
-      <Row title="Romantic Movies" subUrl={Request.fetchRomanticMovies}/>
-      <Row title="Documentaries" subUrl={Request.fetchDocumentaries}/>
+      <Row title="Trending" subUrl={Request.fetchTreding} isLargeRow/>
+      <Row title="Top Rated" subUrl={Request.fetchTopRated} isLargeRow/>
+      <Row title="Action Movies" subUrl={Request.fetchActionMovies} isLargeRow/>
+      <Row title="Comedy Movies" subUrl={Request.fetchComedyMovies} isLargeRow/>
+      <Row title="Horror Movies" subUrl={Request.fetchHorrorMovies} isLargeRow/>
+      <Row title="Romantic Movies" subUrl={Request.fetchRomanticMovies} isLargeRow/>
+      <Row title="Documentaries" subUrl={Request.fetchDocumentaries} isLargeRow/>
     </div>
   );
 }
